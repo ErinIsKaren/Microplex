@@ -1,0 +1,23 @@
+{
+  "name": "Microplex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "cli-color": "^2.0.0",
+    "common-tags": "^1.8.0",
+    "date-and-time": "^0.14.1",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "memory": "0.0.3"
+  }
+}

@@ -1,0 +1,28 @@
+New Handler Error (HEALTH.JS):
+ReferenceError: apiPing is not defined
+    at Object.run (/home/runner/Microplex/commands/information/health.js:75:7)
+    at module.exports (/home/runner/Microplex/events/guild/message.js:17:34)
+    at Client.emit (events.js:315:20)
+    at Client.EventEmitter.emit (domain.js:483:12)
+    at MessageCreateAction.handle (/home/runner/Microplex/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/runner/Microplex/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/runner/Microplex/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/runner/Microplex/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/runner/Microplex/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/runner/Microplex/node_modules/ws/lib/event-target.js:132:16)
+Recorded At: Tue Dec 29 2020 04:25:12 GMT+0000 (Coordinated Universal Time)
+
+New Handler Error (COMMAND.JS):
+ReferenceError: bot is not defined
+    at Object.<anonymous> (/home/runner/Microplex/commands/information/health.js:43:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at load (/home/runner/Microplex/handlers/command.js:13:20)
+    at /home/runner/Microplex/handlers/command.js:21:56
+    at Array.forEach (<anonymous>)
+Recorded At: Tue Dec 29 2020 04:34:49 GMT+0000 (Coordinated Universal Time)
+
